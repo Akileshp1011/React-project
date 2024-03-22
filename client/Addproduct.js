@@ -65,7 +65,7 @@ const UpdateProductData = (id) =>{
        <td>{val.productName}</td>
        <td>{val.description}</td>  
         <td>
-        <input type="text" placeholder="update updatename"
+        <input type="text" placeholder="update productname"
         onChange={(event) => {
           setNewProductName(event.target.value);
         }}></input>
